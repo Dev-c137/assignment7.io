@@ -854,16 +854,20 @@
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
+                  
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <label for="email" class="sr-only">Search</label>
                   <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
                 </div>
               </div>
               <div class="form-group mt-3">
+                <label for="subject" class="sr-only">Search</label>
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
               </div>
               <div class="form-group mt-3">
+                <label for="message" class="sr-only">Search</label>
                 <textarea class="form-control" name="message" rows="8" placeholder="Message" required></textarea>
               </div>
               <div class="my-3">
@@ -899,11 +903,11 @@
                 <strong>Email:</strong> info@example.com<br>
               </p>
               <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://www.google.com/" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="https://www.google.com/" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.google.com/" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="https://www.google.com/" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="https://www.google.com/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
               </div>
             </div>
           </div>
@@ -923,6 +927,7 @@
             <h4>Our Newsletter</h4>
             <p>Join us for the news and we will give you personalized deals!</p>
             <form action="" method="post">
+              <label for="email" class="sr-only">Search</label>
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
 
